@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+section {
+  width: 100%;
+  height: 67vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.containerr {
+  width: 1000px;
+  backdrop-filter: blur(70px);
+  height: auto;
+  border-radius: 14px;
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 20px 0px;
+  transform-origin: center;
+}
+
+.containerr .tool,.coming-soon {
+  background-color: white;
+  height: 95px;
+  width: 210px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.containerr .tool:hover {
+  transform: scale(1.04);
+}
+
+.tool p,
+.tool a {
+  font-size: 14px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.tool p,
+.tool a,
+.tool span {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width:1050px) {
+  .containerr {
+      width: 900px;
+      justify-content: center;
+  }
+}
+@media screen and (max-width:950px) {
+  .containerr {
+      width: 800px;
+      justify-content: center;
+      
+  }
+}
+@media screen and (max-width:850px) {
+  .containerr {
+      width: 600px;
+      justify-content: center;
+  }
+}
+@media screen and (max-width:700px) {
+  .containerr {
+      width: 500px;
+      justify-content: center;
+      padding: 2rem;
+  }
+}
+@media screen and (max-width:580px) {
+  .containerr {
+      width: 500px;
+
+  }
+}
+@media screen and (max-width:520px) {
+  .containerr {
+      width: 400px;
+  }
+  .coming-soon{
+    display: none;
+  }
+  .containerr .tool{
+    width: 300px;
+  }
+}
+@media screen and (max-width:450px) {
+  .containerr {
+      width: 350px;
+  }
+  .coming-soon{
+    display: none;
+  }
+  .containerr .tool{
+    width: 300px;
+  }
+}

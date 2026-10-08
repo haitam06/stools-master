@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&display=swap');
+
+:root {
+    --body-bg: #f5f8ff;
+    --box-bg: #fff;
+    --input-bg: #f5f8ff;
+    --txt-color: #2f2d2f;
+    --txt-second-color: #ccc;
+    --border-color: #898f9c;
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+*::-webkit-scrollbar-thumb {
+    background-color: #898f9c;
+    border-radius: 20px;
+    border: 2px solid white;
+
+
+}
+body{
+    background-image: url("./assets/bgg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+

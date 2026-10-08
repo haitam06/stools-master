@@ -1,0 +1,326 @@
+.section {
+    width: 100%;
+    height:87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textall {
+    background-color: white;
+    width: 1000px;
+    height: 80vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 20px 0px;
+}
+
+.btm{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.top{
+
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+    ;
+    align-items: center;
+}
+.exText {
+    background-color: rgb(207, 207, 207);
+    height: 20vh;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    overflow: auto;
+    width: 300px;
+}
+
+.upload-ext {
+    width: 350px;
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.txtshow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txttitls{
+    background-image: linear-gradient(45deg, rgb(124, 125, 215), #bec2d2);
+    background-size: 100%;
+    background-repeat: repeat;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.txttitls {
+    font-size: 40px;
+    font-weight: 900;
+    margin: .5rem;
+    background-image: linear-gradient(45deg, rgb(124, 125, 215), #bec2d2);
+    background-size: 100%;
+    background-repeat: repeat;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.txttitls2 {
+    font-size: 20px;
+    background-image: linear-gradient(45deg, rgb(124, 125, 215), #bec2d2);
+    background-size: 100%;
+    background-repeat: repeat;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+select {
+    width: 230px;
+    outline: none;
+    border: 2px solid var(--secondary-color);
+    height: 40px;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 .9rem 0 0;
+
+}
+
+select option {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    background-color: var(--primary-color);
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+
+
+.txtshow button {
+    margin: .5rem;
+    width: 100%;
+}
+
+.txtshow .exText {
+    outline: none;
+    color: black;
+    background-color: #f5f8ff;
+    font-size: 15px;
+    width: 300px;
+    text-align: justify;
+    border: 2px solid var(--secondary-color);
+    resize: none;
+
+    overflow: auto;
+}
+
+@media screen and (max-width:1050px) {
+    .textall {
+        width: 900px;
+
+    }
+}
+
+@media screen and (max-width:950px) {
+    .textall {
+        width: 800px;
+    }
+}
+@media screen and (max-width:850px) {
+    .textall {
+        width: 600px;
+    }
+    .txttitls {
+        font-size:30px;
+    }
+
+    .txttitls2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .textall {
+        width: 500px;
+    }    
+    .txttitls {
+        font-size:25px;
+    }
+
+    .txttitls2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width:580px) {
+    .textall {
+        width: 500px;
+    }
+
+    .txttitls {
+        font-size: 25px;
+    }
+
+    .txttitls2 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .options {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: .2rem;
+    }
+
+    select {
+        width: 230px;
+        outline: none;
+        border: 2px solid var(--secondary-color);
+        height: 40px;
+        padding: .5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 1rem 0 0 0;
+    }
+
+    .options button {
+        width: 230px;
+    }
+}
+@media screen and (max-width:520px) {
+    .textall {
+        width: 400px;
+    }
+
+    .txttitls {
+        font-size: 25px;
+    }
+
+    .txttitls2 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .options {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: .2rem;
+    }
+
+    select {
+        width: 230px;
+        outline: none;
+        border: 2px solid var(--secondary-color);
+        height: 40px;
+        padding: .5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 1rem 0 0 0;
+    }
+
+    .options button {
+        width: 230px;
+    }
+}
+@media screen and (max-width:450px) {
+    .textall {
+        width: 350px;
+    }
+
+    .txttitls {
+        font-size: 20.5px;
+    }
+
+    .txttitls2 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .options {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: .2rem;
+    }
+
+    select {
+        width: 230px;
+        outline: none;
+        border: 2px solid var(--secondary-color);
+        height: 40px;
+        padding: .5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 1rem 0 0 0;
+    }
+
+    .options button {
+        width: 230px;
+    }
+    .txtshow{
+        width: 230px;
+    }
+    .txtshow .exText{
+        width: 230px;
+    }
+}

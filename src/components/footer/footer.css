@@ -1,0 +1,152 @@
+footer{
+    align-items: center;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 20px;
+    height: 20vh;
+    width: 1000px;
+}
+.footer-wrap{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftext{
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 16px;
+    height: 100%;
+    
+    justify-content: start;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+
+}
+.ft,.ft2{
+    color: var(--primary-color);
+}
+.ftext h1{
+    margin: 0;
+}.ft2{
+    font-size: 15px;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.acc p{
+    margin-left: 5px;
+}
+.social{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    padding: 40px;
+    color: var(--primary-color);
+    flex-direction: column;
+    justify-content: start;
+    gap: 16px;
+}
+.accs{
+    display: flex;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width:1050px) {
+    footer{
+        width: 900px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    footer{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    footer{
+        width: 600px;
+    }
+    .social{
+        padding: 0;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    footer{
+        width: 500px;
+    }
+    .social{
+        padding: 0;
+        height: 100px;
+    }
+}
+@media screen and (max-width:580px) {
+    footer{
+        width: 400px;
+    }
+    .social{
+        padding: 0;
+        height: 100px;
+    }
+    .ftext{
+        padding: 0;
+        height: 100px;
+    }
+}
+@media screen and (max-width:520px) {
+    footer{
+        width: 400px;
+    }
+    .social{
+        padding: 0;
+        height: 100px;
+    }
+    .ftext{
+        padding: 0;
+        height: 100px;
+    }
+}
+@media screen and (max-width:450px) {
+    footer{
+        width: 360px;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        
+    }
+    .social{
+        padding: 0;
+        height: 100px;
+        margin-left: 1rem;
+        
+        margin-bottom: 1rem;
+    }
+    .ftext{
+        padding: 0;
+        height: 100px;
+        margin-left: 1rem;
+        margin-top: 10rem;
+        
+    }
+}
