@@ -1,6 +1,6 @@
 # 🛠️ STools Hub
 
-STools Hub is a collaborative project developed by Zayd Ftouh, Rida Elklie, and Jihad Bourbab. This project aims to simplify various tasks by providing innovative tools with user-friendly interfaces.
+STools Hub is a collaborative project developed by Haytam Chaara and Jihad Bourbab. This project aims to simplify various tasks by providing innovative tools with user-friendly interfaces.
 
 ## 🚀 Features
 
